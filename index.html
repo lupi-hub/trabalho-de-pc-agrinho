@@ -1,165 +1,378 @@
+```html
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agroenergia e Biocombustíveis</title>
+    <title>Agroenergia e Biocombustíveis Sustentáveis</title>
 
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
 
-    <header class="hero">
-        <div class="overlay"></div>
+    <header>
+        <nav class="navbar">
 
-        <div class="hero-content">
-            <h1>Agroenergia e Biocombustíveis Sustentáveis</h1>
-            <p>
-                Energia renovável para um futuro mais sustentável.
-            </p>
+            <div class="logo">
+                🌱 AgroEnergia
+            </div>
 
-            <button id="btnInfo">
-                Descobrir Mais
-            </button>
-        </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tipos">Biocombustíveis</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#brasil">Brasil</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#inovacao">Inovação</a></li>
+                <li><a href="#dados">Dados</a></li>
+            </ul>
+
+        </nav>
     </header>
 
-    <main>
+    <!-- HERO -->
 
-        <section class="section">
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Agroenergia e Biocombustíveis Sustentáveis
+            </h1>
+
+            <p>
+                Energia renovável produzida a partir de recursos agrícolas,
+                contribuindo para um futuro mais sustentável.
+            </p>
+
+            <button id="explorarBtn">
+                Explorar Projeto
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="section">
+
+        <div class="container">
+
             <h2>O que é Agroenergia?</h2>
 
-            <div class="card-container">
+            <p class="section-text">
+
+                A agroenergia consiste na produção de energia a partir de
+                materiais agrícolas, resíduos vegetais e matéria orgânica.
+                Os biocombustíveis são fontes renováveis que ajudam a reduzir
+                a dependência dos combustíveis fósseis.
+
+            </p>
+
+            <div class="cards">
+
                 <div class="card">
-                    <h3>Energia Renovável</h3>
-                    <p>
-                        A agroenergia utiliza materiais agrícolas e orgânicos para gerar energia.
-                    </p>
+                    <h3>🌿 Renovável</h3>
+                    <p>Utiliza recursos que podem ser produzidos novamente pela natureza.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Menos Poluição</h3>
-                    <p>
-                        Os biocombustíveis emitem menos gases poluentes que os combustíveis fósseis.
-                    </p>
+                    <h3>🌎 Sustentável</h3>
+                    <p>Ajuda na redução da poluição e das emissões de carbono.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Brasil em Destaque</h3>
-                    <p>
-                        O Brasil é um dos maiores produtores mundiais de etanol e biodiesel.
-                    </p>
+                    <h3>🚜 Economia</h3>
+                    <p>Fortalece o setor agrícola e gera empregos.</p>
                 </div>
+
             </div>
-        </section>
 
-        <section class="section dark">
-            <h2>Tipos de Biocombustíveis</h2>
+        </div>
 
-            <div class="grid">
-                <div class="mini-card">
+    </section>
+
+    <!-- ESTATÍSTICAS -->
+
+    <section class="section dark">
+
+        <div class="container">
+
+            <h2>Destaques da Agroenergia</h2>
+
+            <div class="stats">
+
+                <div class="stat-box">
+                    <h3 id="contador1">0</h3>
+                    <p>Tipos principais de biocombustíveis</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3 id="contador2">0</h3>
+                    <p>Áreas de aplicação</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3 id="contador3">0</h3>
+                    <p>Benefícios sustentáveis</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TIPOS -->
+
+    <section id="tipos" class="section">
+
+        <div class="container">
+
+            <h2>Principais Biocombustíveis</h2>
+
+            <div class="cards">
+
+                <div class="card">
                     <h3>Etanol</h3>
-                    <p>Produzido principalmente da cana-de-açúcar.</p>
+                    <p>Produzido principalmente da cana-de-açúcar e do milho.</p>
                 </div>
 
-                <div class="mini-card">
+                <div class="card">
                     <h3>Biodiesel</h3>
-                    <p>Feito a partir de óleos vegetais e gorduras.</p>
+                    <p>Produzido a partir de óleos vegetais e gorduras animais.</p>
                 </div>
 
-                <div class="mini-card">
+                <div class="card">
                     <h3>Biogás</h3>
-                    <p>Obtido pela decomposição de resíduos orgânicos.</p>
+                    <p>Obtido da decomposição de resíduos orgânicos.</p>
                 </div>
 
-                <div class="mini-card">
+                <div class="card">
                     <h3>Biometano</h3>
-                    <p>Versão purificada do biogás.</p>
+                    <p>Versão purificada do biogás usada como combustível.</p>
                 </div>
-            </div>
-        </section>
 
-        <section class="section">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- VANTAGENS -->
+
+    <section id="vantagens" class="section dark">
+
+        <div class="container">
+
             <h2>Vantagens e Desvantagens</h2>
 
             <div class="comparison">
 
-                <div class="box positive">
-                    <h3>Vantagens</h3>
+                <div class="advantages">
+                    <h3>✅ Vantagens</h3>
 
                     <ul>
                         <li>Fonte renovável</li>
-                        <li>Menor emissão de gases</li>
-                        <li>Gera empregos</li>
-                        <li>Reduz dependência do petróleo</li>
+                        <li>Menor emissão de gases poluentes</li>
+                        <li>Geração de empregos</li>
+                        <li>Redução da dependência do petróleo</li>
+                        <li>Aproveitamento de resíduos</li>
                     </ul>
                 </div>
 
-                <div class="box negative">
-                    <h3>Desvantagens</h3>
+                <div class="disadvantages">
+                    <h3>⚠️ Desvantagens</h3>
 
                     <ul>
+                        <li>Uso intenso de água</li>
                         <li>Possível desmatamento</li>
-                        <li>Uso elevado de água</li>
                         <li>Monocultura</li>
-                        <li>Custos tecnológicos</li>
+                        <li>Custos tecnológicos elevados</li>
+                        <li>Dependência climática</li>
                     </ul>
                 </div>
 
             </div>
-        </section>
 
-        <section class="section dark">
+        </div>
+
+    </section>
+
+    <!-- BRASIL -->
+
+    <section id="brasil" class="section">
+
+        <div class="container">
+
             <h2>Agroenergia no Brasil</h2>
 
-            <p class="center">
-                O Brasil é referência mundial na produção de biocombustíveis,
-                principalmente etanol e biodiesel.
-            </p>
+            <div class="timeline">
 
-            <canvas id="grafico"></canvas>
-        </section>
-
-        <section class="section">
-            <h2>Sustentabilidade</h2>
-
-            <div class="card-container">
-
-                <div class="card">
-                    <h3>Menos Carbono</h3>
-                    <p>
-                        Os biocombustíveis ajudam na redução do efeito estufa.
-                    </p>
+                <div class="timeline-item">
+                    <span>1975</span>
+                    <h3>Proálcool</h3>
+                    <p>Programa que incentivou o uso do etanol.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Uso Inteligente</h3>
-                    <p>
-                        O reaproveitamento de resíduos reduz desperdícios.
-                    </p>
+                <div class="timeline-item">
+                    <span>2004</span>
+                    <h3>Biodiesel</h3>
+                    <p>Expansão da produção nacional.</p>
                 </div>
 
-                <div class="card">
-                    <h3>Inovação</h3>
-                    <p>
-                        Novas tecnologias tornam a produção mais eficiente.
-                    </p>
+                <div class="timeline-item">
+                    <span>2017</span>
+                    <h3>RenovaBio</h3>
+                    <p>Política de incentivo aos biocombustíveis.</p>
                 </div>
 
             </div>
-        </section>
 
-    </main>
+        </div>
+
+    </section>
+
+    <!-- SUSTENTABILIDADE -->
+
+    <section id="sustentabilidade" class="section dark">
+
+        <div class="container">
+
+            <h2>Sustentabilidade</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>♻️ Menos Carbono</h3>
+                    <p>Contribui para reduzir os gases do efeito estufa.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌾 Reaproveitamento</h3>
+                    <p>Transforma resíduos agrícolas em energia.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌍 Futuro Limpo</h3>
+                    <p>Ajuda na construção de uma matriz energética sustentável.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- INOVAÇÃO -->
+
+    <section id="inovacao" class="section">
+
+        <div class="container">
+
+            <h2>Tecnologias e Inovação</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🤖 Agricultura de Precisão</h3>
+                    <p>Uso de sensores e tecnologia para reduzir desperdícios.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🧪 Etanol de Segunda Geração</h3>
+                    <p>Produzido a partir de resíduos vegetais.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🔬 Biotecnologia</h3>
+                    <p>Plantas mais resistentes e produtivas.</p>
+                </div>
+
+                <div class="card">
+                    <h3>⚡ Biodigestores</h3>
+                    <p>Aumento da produção de biogás.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DADOS -->
+
+    <section id="dados" class="section dark">
+
+        <div class="container">
+
+            <h2>Dados e Gráficos</h2>
+
+            <div class="graficos">
+
+                <div class="grafico-box">
+                    <canvas id="graficoPrincipal"></canvas>
+                </div>
+
+                <div class="grafico-box">
+                    <canvas id="graficoAmbiental"></canvas>
+                </div>
+
+                <div class="grafico-box">
+                    <canvas id="graficoBrasil"></canvas>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <h2>Galeria</h2>
+
+            <div class="gallery">
+
+                <img src="img/agro1.jpg" alt="">
+                <img src="img/agro2.jpg" alt="">
+                <img src="img/agro3.jpg" alt="">
+                <img src="img/agro4.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
 
     <footer>
+
+        <h3>Fontes Utilizadas</h3>
+
+        <p>Embrapa • ANP • EPE • FAO • IEA</p>
+
         <p>
-            Feito por Lucas Eberspacher Tuleski 2ºC nº15
+            Projeto escolar sobre Agroenergia e Biocombustíveis Sustentáveis.
         </p>
+
     </footer>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
+```
