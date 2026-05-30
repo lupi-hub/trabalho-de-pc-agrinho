@@ -1,4 +1,3 @@
-```javascript
 /* =========================
    BOTÃO EXPLORAR
 ========================= */
@@ -321,4 +320,3 @@ if (grafico3) {
 console.log(
     "Projeto Agroenergia carregado com sucesso."
 );
-```
