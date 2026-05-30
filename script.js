@@ -1,4 +1,4 @@
-```javascript id="hj72ks"
+```javascript
 /* =========================
    BOTÃO EXPLORAR
 ========================= */
