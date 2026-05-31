@@ -153,7 +153,7 @@ if (grafico1) {
 
             datasets: [{
                 label: "Principais Biocombustíveis",
-                data: [90, 80, 65, 55],
+                data: [18, 5, 0,3, 0,15],
                 borderWidth: 2
             }]
 
@@ -214,7 +214,7 @@ if (grafico2) {
 
             datasets: [{
 
-                data: [35, 30, 20, 15]
+                data: [70, 90-100, 30-80, 10-30]
 
             }]
 
@@ -269,11 +269,11 @@ if (grafico3) {
                 label: "Expansão da Agroenergia",
 
                 data: [
-                    10,
-                    25,
-                    50,
-                    80,
-                    100
+                    5,
+                    13,
+                    16,
+                    21,
+                    30
                 ],
 
                 tension: 0.4
