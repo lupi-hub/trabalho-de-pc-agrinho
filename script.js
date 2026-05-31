@@ -153,7 +153,7 @@ if (grafico1) {
 
             datasets: [{
                 label: "Principais Biocombustíveis",
-                data: ["18%","5%","0.3%","0.15%"],
+                data: [18,5,0.3,0.15],
                 borderWidth: 2
             }]
 
