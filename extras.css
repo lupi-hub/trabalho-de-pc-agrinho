@@ -310,3 +310,11 @@ body.modo-escuro .timeline-item span{
     border:none;
 
 }
+
+.video-grid{
+    border:5px solid red !important;
+}
+
+.video-card{
+    border:5px solid blue !important;
+}
