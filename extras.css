@@ -159,3 +159,22 @@ body.modo-escuro footer{
     cursor:pointer;
 
 }
+
+/* =========================
+   HERO COM IMAGEM
+========================= */
+
+.hero{
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.45)
+        ),
+        url("img/agro5.jpg") !important;
+
+    background-size:cover !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+
+}
