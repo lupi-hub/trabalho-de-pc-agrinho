@@ -231,14 +231,6 @@ body.modo-escuro .timeline-item{
 
 }
 
-body.modo-escuro .timeline-item span{
-
-    color:#008C0A !important;
-
-    font-weight:bold;
-
-}
-
 body.modo-escuro .timeline-item h3{
 
     color:#ffffff !important;
@@ -247,6 +239,14 @@ body.modo-escuro .timeline-item h3{
 
 body.modo-escuro .timeline-item p{
 
-    color:#f0f0f0 !important;
+    color:#ffffff !important;
+
+    opacity:1 !important;
+
+}
+
+body.modo-escuro .timeline-item span{
+
+    color:#008C0A !important;
 
 }
