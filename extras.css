@@ -42,29 +42,56 @@ body.modo-escuro{
 
 }
 
-body.modo-escuro section{
+/* Seções alternadas */
 
-    background:#121212 !important;
-    color:white !important;
+body.modo-escuro section:nth-of-type(odd){
+
+    background:#181818 !important;
 
 }
+
+body.modo-escuro section:nth-of-type(even){
+
+    background:#222222 !important;
+
+}
+
+/* Linha divisória */
+
+body.modo-escuro section{
+
+    border-top:2px solid #008C0A;
+
+}
+
+/* Cards */
 
 body.modo-escuro .card{
 
-    background:#1e1e1e !important;
-    color:white !important;
+    background:#2b2b2b !important;
 
-    border:1px solid #4CAF50;
+    border:2px solid #008C0A;
+
+    color:white !important;
 
 }
 
+/* Títulos */
+
 body.modo-escuro h1,
 body.modo-escuro h2,
-body.modo-escuro h3,
+body.modo-escuro h3{
+
+    color:#008C0A !important;
+
+}
+
+/* Textos */
+
 body.modo-escuro p,
 body.modo-escuro li{
 
-    color:white !important;
+    color:#f0f0f0 !important;
 
 }
 
@@ -72,17 +99,9 @@ body.modo-escuro li{
 
 body.modo-escuro nav{
 
-    background:#181818 !important;
+    background:#0f0f0f !important;
 
-}
-
-/* Verde mais vivo */
-
-body.modo-escuro .logo,
-body.modo-escuro .hero h1,
-body.modo-escuro h2{
-
-    color:#66ff99 !important;
+    border-bottom:2px solid #008C0A;
 
 }
 
@@ -91,6 +110,8 @@ body.modo-escuro h2{
 body.modo-escuro footer{
 
     background:#0a0a0a !important;
+
+    border-top:2px solid #008C0A;
 
 }
 
