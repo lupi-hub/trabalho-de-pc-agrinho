@@ -1,14 +1,14 @@
 # 🌱 AgroEnergia e Biocombustíveis Sustentáveis
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
-Este site foi desenvolvido como parte de um trabalho escolar sobre **Agroenergia e Biocombustíveis Sustentáveis**.
+site desenvolvido como parte de um trabalho escolar sobre **Agroenergia e Biocombustíveis Sustentáveis**.
 
 O objetivo é apresentar de forma visual, moderna e interativa informações sobre a produção de energia a partir de recursos agrícolas, destacando sua importância para a sustentabilidade, a economia e o futuro energético do Brasil.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Explicar o conceito de agroenergia.
 * Apresentar os principais biocombustíveis.
@@ -18,16 +18,15 @@ O objetivo é apresentar de forma visual, moderna e interativa informações sob
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
-* Chart.js (gráficos interativos)
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * Menu de navegação fixo.
 * Design responsivo.
@@ -41,7 +40,7 @@ O objetivo é apresentar de forma visual, moderna e interativa informações sob
 
 ---
 
-## 📊 Conteúdo Abordado
+## Conteúdo Abordado
 
 ### Agroenergia
 
@@ -78,7 +77,7 @@ Programas como o Proálcool e o RenovaBio contribuíram para o crescimento do se
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 Projeto Agroenergia
@@ -98,13 +97,13 @@ Projeto Agroenergia
 
 ---
 
-## 👨‍🎓 Autor
+##  Autor
 
-Projeto desenvolvido para fins educacionais e apresentação escolar.
+Feito por Lucas Eberspacher Tuleski 2°C N°15
 
 ---
 
-## 📚 Fontes
+##  Fontes
 
 * EMBRAPA
 * ANP
