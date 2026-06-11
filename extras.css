@@ -79,10 +79,9 @@ body.modo-escuro .card{
 /* Títulos */
 
 body.modo-escuro h1,
-body.modo-escuro h2,
-body.modo-escuro h3{
+body.modo-escuro h2{
 
-    color:#008C0A !important;
+    color:#ffffff !important;
 
 }
 
