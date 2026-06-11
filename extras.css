@@ -218,3 +218,35 @@ body.modo-escuro .hero{
     background-repeat:no-repeat !important;
 
 }
+
+/* =========================
+   TIMELINE - MODO ESCURO
+========================= */
+
+body.modo-escuro .timeline-item{
+
+    background:#2b2b2b !important;
+
+    border:2px solid #008C0A !important;
+
+}
+
+body.modo-escuro .timeline-item span{
+
+    color:#008C0A !important;
+
+    font-weight:bold;
+
+}
+
+body.modo-escuro .timeline-item h3{
+
+    color:#ffffff !important;
+
+}
+
+body.modo-escuro .timeline-item p{
+
+    color:#f0f0f0 !important;
+
+}
