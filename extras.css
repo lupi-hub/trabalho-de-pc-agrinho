@@ -278,3 +278,17 @@ body.modo-escuro .timeline-item span{
     }
 
 }
+
+/* =========================
+   VÍDEOS LADO A LADO
+========================= */
+
+.video-grid{
+
+    display:grid !important;
+
+    grid-template-columns:1fr 1fr !important;
+
+    gap:30px;
+
+}
