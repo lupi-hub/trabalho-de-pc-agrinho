@@ -199,3 +199,22 @@ body.modo-escuro footer{
     background-repeat:no-repeat !important;
 
 }
+
+/* =========================
+   HERO NO MODO ESCURO
+========================= */
+
+body.modo-escuro .hero{
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.55),
+            rgba(0,0,0,.55)
+        ),
+        url("img/agro5.jpg") !important;
+
+    background-size:cover !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+
+}
