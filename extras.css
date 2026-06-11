@@ -259,3 +259,17 @@ body.modo-escuro .timeline-item span{
     justify-self: center;
 
 }
+
+/* Galeria com 4 colunas no desktop */
+@media (min-width: 1000px){
+
+    .gallery{
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .gallery img:nth-child(5){
+        grid-column: 2 / 4;
+        justify-self: center;
+    }
+
+}
