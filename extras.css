@@ -269,7 +269,9 @@ body.modo-escuro .timeline-item span{
 
     .gallery img:nth-child(5){
 
-        border: 5px solid red !important;
+        grid-column: 3;
+
+        justify-self: center;
 
     }
 
